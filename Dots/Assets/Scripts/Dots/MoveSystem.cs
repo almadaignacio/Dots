@@ -26,13 +26,13 @@ public partial struct MoveUnitJobs : IJobEntity
     {
         float3 moveDirection = moveUnit.TargetPosition - localTransform.Position;
 
-        /*float reachedTargetDistanceSq = 2f;
+        float reachedTargetDistanceSq = 2f;
         if (math.lengthsq(moveDirection) < reachedTargetDistanceSq)
         {
             physicsVelocity.Linear = float3.zero;
             physicsVelocity.Angular = float3.zero;
             return;
-        }*/
+        }
         moveDirection = math.normalize(moveDirection);
 
         localTransform.Rotation = math.slerp(localTransform.Rotation,

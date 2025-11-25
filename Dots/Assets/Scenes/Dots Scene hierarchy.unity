@@ -133,7 +133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -169,19 +169,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: MoveSpeed
-      value: 10
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: RotationSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Constraints
-      value: 124
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8517931341078059227, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -202,7 +238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -238,19 +274,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: MoveSpeed
-      value: 10
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: RotationSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Constraints
-      value: 124
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8517931341078059227, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Name
       value: Character (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -271,7 +343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -307,19 +379,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: MoveSpeed
-      value: 10
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: RotationSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Constraints
-      value: 124
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8517931341078059227, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Name
       value: Character (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -340,7 +448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -376,19 +484,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: MoveSpeed
-      value: 10
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: RotationSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Constraints
-      value: 124
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8517931341078059227, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Name
       value: Character (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -409,7 +553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -445,19 +589,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: MoveSpeed
-      value: 10
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: RotationSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Constraints
-      value: 124
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8517931341078059227, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -478,7 +658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 1184395735334110749, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -514,19 +694,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: MoveSpeed
-      value: 10
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477617398531904607, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: RotationSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Constraints
-      value: 124
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitCom
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319734150437203594, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8517931341078059227, guid: 5799428dc31a96e43932942edba862e5, type: 3}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066649287541955031, guid: 5799428dc31a96e43932942edba862e5, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
